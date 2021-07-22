@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_465244_kumar_ama.GetAssignIncidentsCount</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>true</client_callable>
+        <description>calculate how many maintenance tasks are already assigned to that same user</description>
+        <name>GetAssignIncidentsCount</name>
+        <script><![CDATA[var GetAssignIncidentsCount = Class.create();
+GetAssignIncidentsCount.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+getCount: function(){
+var uid = this.getParameter('sysparm_assigned_to'); // sysparm_state should be same in both SI and Client Script. //From this you will get value from Client script
+var count=0;
+var gr = new GlideRecord('x_465244_kumar_ama_maintenance_tasks');
+//gr.addEncodedQuery('stateNOT IN3,4,7');
+//gr.addQuery('assigned_to',"800b174138d089c868d09de320f9833b");
+   gr.addQuery('assigned_to', uid);
+gr.query();
+	//var count=0;
+	while(gr.next()){
+		
+		count++;
+	}
+return count;
+	
+  },
+
+    type: 'GetAssignIncidentsCount'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 19:36:56</sys_created_on>
+        <sys_id>35ba6b602fa13010e9f143e72799b6e7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>GetAssignIncidentsCount</sys_name>
+        <sys_package display_value="Kumar_Aman" source="x_465244_kumar_ama">5aa4c3642f213010e9f143e72799b620</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</sys_scope>
+        <sys_update_name>sys_script_include_35ba6b602fa13010e9f143e72799b6e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-22 07:01:04</sys_updated_on>
+    </sys_script_include>
+</record_update>

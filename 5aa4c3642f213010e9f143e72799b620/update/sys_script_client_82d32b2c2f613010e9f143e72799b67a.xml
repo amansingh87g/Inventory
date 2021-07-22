@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Create a client script on the maintenance table that will work on both the platform UI and service portal. &#13;
+This client script should run any time the assigned_to field changes. It should use AJAX to run a script on &#13;
+the server that will calculate how many maintenance tasks are already assigned to that same user and &#13;
+then display a message showing "The selected assignee already has ## maintenance tasks assigned to &#13;
+them".</description>
+        <field>assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var assignto = g_form.getValue('assigned_to');
+	//g_form.addErrorMessage(assignto);
+    var ga = new GlideAjax('GetAssignIncidentsCount');
+  ga.addParam('sysparm_name','getCount');
+  ga.addParam('sysparm_assigned_to',assignto);//added to pass value
+  ga.getXML(callBack);
+
+  function callBack(response) {
+
+  var answer = response.responseXML.documentElement.getAttribute("answer");
+g_form.showFieldMsg('assigned_to',"The selected assignee already has # " + answer + "  maintenance tasks assigned to them",'info');
+
+  }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 19:27:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82d32b2c2f613010e9f143e72799b67a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Calculate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kumar_Aman" source="x_465244_kumar_ama">5aa4c3642f213010e9f143e72799b620</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</sys_scope>
+        <sys_update_name>sys_script_client_82d32b2c2f613010e9f143e72799b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-22 07:03:42</sys_updated_on>
+        <table>x_465244_kumar_ama_maintenance_tasks</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

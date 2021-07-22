@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Inventory Collector" max_length="40" name="x_465244_kumar_ama_inventory_collector" sizeclass="2" type="collection">
+        <element label="Count Close Task" max_length="40" name="count_close_task" type="integer"/>
+        <element label="Count Task" max_length="40" name="count_task" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="400" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Inventory ID" max_length="40" name="inventory_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Inventory ID" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Task Completion Percentage" max_length="15" name="task_completion_percentage" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Inventory" max_length="40" name="type_of_inventory" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Action Figures" value="action_figure"/>
+                <element inactive_on_update="false" label="Cards" value="cards"/>
+                <element inactive_on_update="false" label="Coins" value="coins"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
