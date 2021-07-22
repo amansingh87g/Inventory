@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="DELETE">
+        <operation>write</operation>
+        <source/>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_security_acl</source_table>
+        <source_type>11</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>Pankaj</sys_created_by>
+        <sys_created_on>2021-07-22 08:03:43</sys_created_on>
+        <sys_id>fa0752bc2f693010e9f143e72799b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Kumar_Aman" source="x_465244_kumar_ama">5aa4c3642f213010e9f143e72799b620</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_fa0752bc2f693010e9f143e72799b64c</sys_update_name>
+        <sys_updated_by>Pankaj</sys_updated_by>
+        <sys_updated_on>2021-07-22 08:03:43</sys_updated_on>
+        <target/>
+        <target_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</target_scope>
+        <target_table/>
+        <target_type>3</target_type>
+    </sys_restricted_caller_access>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</application>
+        <file_path/>
+        <instance_id>45a36ba9db2c3b00f492c59705961928</instance_id>
+        <instance_name>dev78224</instance_name>
+        <name>sys_restricted_caller_access_fa0752bc2f693010e9f143e72799b64c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access"><sys_restricted_caller_access action="INSERT_OR_UPDATE"><operation>write</operation><source/><source_scope display_value="Global">global</source_scope><source_table>sys_security_acl</source_table><source_type>11</source_type><status>2</status><sys_class_name>sys_restricted_caller_access</sys_class_name><sys_created_by>Pankaj</sys_created_by><sys_created_on>2021-07-22 08:03:43</sys_created_on><sys_id>fa0752bc2f693010e9f143e72799b64c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global</sys_name><sys_package display_value="Kumar_Aman" source="x_465244_kumar_ama">5aa4c3642f213010e9f143e72799b620</sys_package><sys_policy/><sys_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</sys_scope><sys_update_name>sys_restricted_caller_access_fa0752bc2f693010e9f143e72799b64c</sys_update_name><sys_updated_by>Pankaj</sys_updated_by><sys_updated_on>2021-07-22 08:03:43</sys_updated_on><target/><target_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</target_scope><target_table/><target_type>3</target_type></sys_restricted_caller_access></record_update>]]></payload>
+        <payload_hash>1724102787</payload_hash>
+        <record_name>global</record_name>
+        <reverted_from/>
+        <source>0654aa382fa93010e9f143e72799b6ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Pankaj</sys_created_by>
+        <sys_created_on>2021-07-22 08:03:43</sys_created_on>
+        <sys_id>f38756bc2f693010e9f143e72799b6ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17acd3de46e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-22 08:59:35</sys_updated_on>
+        <type>Restricted Caller Access Privilege</type>
+        <update_guid>3f8756bcb3693010e557415b684489b9</update_guid>
+        <update_guid_history>3f8756bcb3693010e557415b684489b9:1724102787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Pankaj</sys_created_by>
+        <sys_created_on>2021-07-22 08:05:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_restricted_caller_access">sys_restricted_caller_access</sys_db_object>
+        <sys_id>23d43238f78f41c49cbe4eecd45abf04</sys_id>
+        <sys_metadata>fa0752bc2f693010e9f143e72799b64c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Kumar_Aman" source="x_465244_kumar_ama">5aa4c3642f213010e9f143e72799b620</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</sys_scope>
+        <sys_scope_delete display_value="">5bc371602e194f38a30bd9399ffabc09</sys_scope_delete>
+        <sys_update_name>sys_restricted_caller_access_fa0752bc2f693010e9f143e72799b64c</sys_update_name>
+        <sys_update_version display_value="sys_restricted_caller_access_fa0752bc2f693010e9f143e72799b64c">f38756bc2f693010e9f143e72799b6ba</sys_update_version>
+        <sys_updated_by>Pankaj</sys_updated_by>
+        <sys_updated_on>2021-07-22 08:05:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

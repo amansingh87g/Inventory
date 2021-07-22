@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Maintenance Tasks" max_length="40" name="x_465244_kumar_ama_maintenance_tasks" sizeclass="46" type="collection">
+        <element attributes="encode_utf8=false" label="Instruction" max_length="32" name="instruction" reference="task" type="reference"/>
+        <element label="Inventory ID" mandatory="true" max_length="32" name="inventory_id" reference="x_465244_kumar_ama_inventory_collector" type="reference"/>
+        <element label="Count of Tasks" max_length="40" name="u_count_task" read_only="true" type="integer"/>
+    </element>
+</database>

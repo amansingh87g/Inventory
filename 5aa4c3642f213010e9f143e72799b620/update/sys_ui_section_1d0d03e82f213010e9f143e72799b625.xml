@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="1d0d03e82f213010e9f143e72799b625" sys_domain="global" table="x_465244_kumar_ama_inventory_collector" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>301faf242fa13010e9f143e72799b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>b41faf242fa13010e9f143e72799b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>381faf242fa13010e9f143e72799b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_inventory</element>
+            <position>3</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>b81faf242fa13010e9f143e72799b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>4</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>3c1faf242fa13010e9f143e72799b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_created_task</element>
+            <position>5</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>bc1faf242fa13010e9f143e72799b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>301faf242fa13010e9f143e72799b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>7</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>b01faf242fa13010e9f143e72799b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>8</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>341faf242fa13010e9f143e72799b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_closed_task</element>
+            <position>9</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-21 19:47:35</sys_created_on>
+            <sys_id>b41faf242fa13010e9f143e72799b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-21 19:47:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>count_task</element>
+            <position>10</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-22 06:10:25</sys_created_on>
+            <sys_id>c0ad75782f293010e9f143e72799b6ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-22 06:10:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>count_close_task</element>
+            <position>11</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-22 06:10:25</sys_created_on>
+            <sys_id>18ad75782f293010e9f143e72799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-22 06:10:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_completion_percentage</element>
+            <position>12</position>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2021-07-22 06:33:49</sys_created_on>
+            <sys_id>87f2467c2f293010e9f143e72799b623</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_465244_kumar_ama_inventory_collector" sys_domain="global" view="Default view">1d0d03e82f213010e9f143e72799b625</sys_ui_section>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2021-07-22 06:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_465244_kumar_ama_inventory_collector</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-21 17:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d0d03e82f213010e9f143e72799b625</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_465244_kumar_ama_inventory_collector</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Kumar_Aman" source="x_465244_kumar_ama">5aa4c3642f213010e9f143e72799b620</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kumar_Aman">5aa4c3642f213010e9f143e72799b620</sys_scope>
+            <sys_update_name>sys_ui_section_1d0d03e82f213010e9f143e72799b625</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-21 17:18:48</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
